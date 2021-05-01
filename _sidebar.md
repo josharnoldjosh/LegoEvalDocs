@@ -2,3 +2,4 @@
 
 * [Home](/)
 * [Quickstart](quickstart.md)
+* [Running a Task Locally](run_local.md)
