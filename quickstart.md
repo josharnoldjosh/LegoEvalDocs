@@ -32,7 +32,15 @@ npm run build
 ```
 They might take a while! You only need to run these commands once for installing, and once after you change any `React.js` files.
 
----
+#### 4. Enable Local Debug Mode
+**Make sure** that in `app/settings.py`, `debug = True` in the `server` dictionary:
+```python
+server = {
+    # If this is False, real money will be deducted
+    'debug': True,
+    # ...
+}
+```
 
 ## Demo A Task Locally
 **Make sure** you're in the `app/` directory, run the following command and jump to [localhost](http://127.0.0.1:2988/helloworld).
@@ -53,28 +61,14 @@ mturk = {
     # ...
 }
 ```
-#### 2. Uncomment MTurk Related Code
-We're working to make our framework more simple, but unfortunately, for now, you have to uncomment the following code when you want to launch on MTurk.
-
-In `app/build.py`, go ahead and look for the following lines of code.
-
-**Uncomment these lines in `build.py`.**
-
+#### 2. Disable Local Debug Mode
+**Make sure** that in `app/settings.py`, `debug = True` in the `server` dictionary:
 ```python
-# ...
-
-# pipeline.append(
-#     LoadMTurk(
-#         title=TASK_TITLE,
-#         description=TASK_INSTRUCTION,
-#     ).component
-# )
-
-# ...
-
-# pipeline.append(
-#     SubmitMTurk().component
-# )
+server = {
+    # If this is False, real money will be deducted
+    'debug': False,
+    # ...
+}
 ```
 
 #### 3. Delete our build!
