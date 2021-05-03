@@ -51,6 +51,6 @@ Here are some next steps you can take:
 - [Run your task in your local browser](/runlocal)
 - [Launch a task on MTurk](/mturk)
 - [View your collected data](/viewdata)
-- [Build a Custom Task](/customize)
+- [Build a Custom Task](task/customize)
 
 ---

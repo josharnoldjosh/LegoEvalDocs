@@ -12,6 +12,6 @@ Otherwise, please find an overview of our documentation below 😎:
 - [Run a task in your local browser](/runlocal)
 - [Launch a task on MTurk](/mturk)
 - [View any collected data](/viewdata)
-- [Build a Custom Task](/customize)
+- [Build a Custom Task](task/customize)
 
 ---
