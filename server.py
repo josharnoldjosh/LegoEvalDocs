@@ -9,12 +9,16 @@ app = Flask(__name__)
 def splash():
     return render_template('index.html')
 
-@app.route('/<item>')
-def files(item):
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def sub_folder(path):
     try:
-        return send_file(item)
-    except:
-        return f"Couldn't find file {item}."
+        return send_file(path)
+    except Exception as e:
+        print(e)
+        return f"Couldn't find file {path}."
+
 
 if __name__ == '__main__':
-    app.run(port=os.getenv('PORT', 8000))
+    app.run(port=os.getenv('PORT', 8000), debug=True)

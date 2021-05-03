@@ -1,4 +1,4 @@
-## Launch on MTurk Sandbox
+# Launch Your Tasks on Amazon Mechanical Turk
 
 This page will explain how you can launch your task on Amazon MTurk! Let's get started below:
 
