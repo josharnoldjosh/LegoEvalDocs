@@ -12,7 +12,7 @@ This page will explain how you can view your data. Before trying to view your da
 
 To view any data collected from MTurk (both sandbox & production), first, open up `view_data.py` under the `app/` directory.
 
-You're going to want to change the `task_name` variable to the same `task_name` you used in the [previous section](/mturk).
+You're going to want to change the `task_name` variable to the same `task_name` you used in the [previous section](/mturk) when running `launch_hits.py`.
 
 Finally, you can print each data-point you've collected like so:
 
