@@ -11,24 +11,14 @@ They might take a while! Once you've run this command, you **don't** need to run
 1. You modify any `.js` file
 2. You delete either the `react_app/build/` folder or `react_app/node_modules/` folder
 
-#### Comment Out MTurk lines in `build.py`
-Make sure these lines are commented out, like so.
+#### Disable Local Debug Mode
+**Make sure** that in `app/settings.py`, `debug = False` in the `server` dictionary:
 ```python
-
-# ...
-
-# pipeline.append(
-#     LoadMTurk(
-#         title=TASK_TITLE,
-#         description=TASK_INSTRUCTION,
-#     ).component
-# )
-
-# ...
-
-# pipeline.append(
-#     SubmitMTurk().component
-# )
+server = {
+    # If this is False, real money will be deducted
+    'debug': False,
+    # ...
+}
 ```
 
 #### Run the `server.py` Command
