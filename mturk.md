@@ -12,7 +12,7 @@ mturk = {
 }
 ```
 
-#### 2. Disable Local Debug Mode
+<!-- #### 2. Disable Local Debug Mode
 **Make sure** that in `app/settings.py`, `debug = True` in the `server` dictionary:
 ```python
 server = {
@@ -20,9 +20,9 @@ server = {
     'debug': False,
     # ...
 }
-```
+``` -->
 
-#### 3. Delete our build!
+<!-- #### 2. Delete our build!
 Currently, for launching on MTurk, you're going to need to delete the following folders:
 
 1. `app/react_app/build/`
@@ -32,10 +32,10 @@ If the folders don't exist, you can skip this step!
 
 We're working hard to remove steps like this (to make your life easier), but for now, please delete the above folders before proceeding to the next step.
 
-> Note: If you want to run your task locally again, make sure to run `npm install` and `npm run build` inside of `react_app` again.
+> Note: If you want to run your task locally again, make sure to run `npm install` and `npm run build` inside of `react_app` again. -->
 
 
-#### 4. Run the MTurk Command
+#### 2. Run the MTurk Command
 Whilst still in the `app/` folder, lets go ahead and run the following command:
 ```
 python3 launch_hits.py --task_name demo

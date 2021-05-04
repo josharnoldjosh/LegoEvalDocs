@@ -1,6 +1,6 @@
 # Running a Task Locally
 
-#### Install NPM Modules
+<!-- #### Install NPM Modules
 From the `app/react_app/` folder, execute the following commands.
 ```bash
 npm install
@@ -19,11 +19,11 @@ server = {
     'debug': False,
     # ...
 }
-```
+``` -->
 
-#### Run the `server.py` Command
+#### Run the `local_test.py` Command
 **Make sure** you're in the `app/` directory, run the following command and jump to [localhost](http://127.0.0.1:2988/helloworld).
 ```bash
-python3 server.py
+python3 local_test.py
 ```
 ---
