@@ -17,17 +17,18 @@ The front-end is typically where things get more difficult—especially passing 
 
 Let's outline how you can go about building your own task.
 
-0. (Optionally) Create custom `pages` / UI-elements for your task by writing a single `react.js` file for each page
+0. (Optionally) Create custom `pages` / UI-elements for your task by writing a single `react.js` file for each page.
 1. Edit the `app/build.py` python file. Specifically, snap together pre-existing UI pages in a simple fashion.
-2. Add in the required logic that each component might demand in the `app/main_loop.py`
+2. Add in the required logic that each component might demand in the `app/main_loop.py`.
 
 
 #### Next steps
 
-Step zero, creating custom components might be the most difficult learning curve of LegoEVAL, so we will tackle this in a later section, [here](/temp).
+We recommend reading the articles in the following order:
 
-For the time being, we will focus on steps 1. and 2., [editing the build.py file](/temp) and [editing the main_loop.py file](/temp).
+1. [Editing the build.py file](/build)
+2. [Editing the main_loop.py file](/temp).
+3. [Creating custom components](/temp).
 
-> This page is still under construction ⚠️
 
 ---

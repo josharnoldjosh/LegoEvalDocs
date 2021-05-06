@@ -12,7 +12,7 @@
 - **Creating Your Task**
     - Task Overview
         * [The Basics](taskbasics.md)
-        * [build.py](temp.md)
+        * [build.py](build.md)
         * [main_loop.py](temp.md)
     - Understanding State
         * [Passing Data Around](temp.md)
