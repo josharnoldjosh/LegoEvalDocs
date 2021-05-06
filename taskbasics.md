@@ -26,9 +26,9 @@ Let's outline how you can go about building your own task.
 
 We recommend reading the articles in the following order:
 
-1. [Editing the build.py file](/build)
-2. [Editing the main_loop.py file](/temp).
-3. [Creating custom components](/temp).
+1. Editing the [build.py](/build) file
+2. Editing the [main_loop.py](/mainloop) file.
+3. Creating [customized](/temp) pages.
 
 
 ---

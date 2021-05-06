@@ -37,9 +37,6 @@ For each pre-built page, you can find detailed documentation for that component 
 Once you've imported your pages and read-up on the documentation, you can then begin to construct your `build.py`. We've got an example below for you:
 
 ```python
-
-# ...
-
 ### ~~~ Build Your Task Below ~~~ ###
 
 # A Page that displays a title, description, and button
@@ -59,9 +56,6 @@ survey.questions.append(Comment("comment", "Please type a breif comment here.").
 pipeline.append(survey.component)
 
 ### ~~~ End of Your Task ~~~ ###
-
-# ...
-
 ```
 
 You can see we've created a task with two different pages. The first page is a simple [Instruction Page](/temp) that displays a title and description. The next is a [Survey Page](/temp) that presents a survey to the user.
@@ -75,8 +69,8 @@ It's that easy to snap together pages to build your task. Our whole goal with th
 
 There are **two important notes** that you should be aware of:
 
-1. To define any "backend" logic for each page, you'll need to lastly edit the `main_loop.py` file. Details can be found [here](/temp).
-2. If you need to customize the logic of a page, or build your own page that isn't currently supported, you can find out how to do that [here](/temp).
+1. To define any "backend" **logic** for each page, you'll need to lastly edit the `main_loop.py` file. Details can be found [here](/mainloop).
+2. If you need to **customize** a page, or build your own page that isn't currently supported, you can find out how to do that [here](/temp).
 
 
 ---
