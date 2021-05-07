@@ -28,7 +28,7 @@ def update(state, instruction):
 
 You'll notice [state](/temp) is the first argument passed into the `update` function.
 
-The [state](/temp) represents, well, the entire *state* of the application. It contains all the data associated with the task, etc. You can think of it as the tasks database. You can read more about state [here](/temp).
+The [state](/temp) represents, well, the entire *state* of the application. It contains all the data associated with the task, etc. You can think of it as the task's database. You can read more about state [here](/temp).
 
 Thus, the [state](/temp) object can be used to *read* the data that's currently been saved/collected, for example, what information the crowd-worker has answered for a survey, or a crowd-workers dialog history. You can access all of this information that might be saved via `state.data`, which returns a python dictionary.
 

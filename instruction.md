@@ -1,6 +1,6 @@
 # Instruction Page
 
-The instruction page is useful for displaying instructions, or decent amount of text before the user contains on to a more functional-aspect of your task.
+The instruction page is useful for displaying instructions, or a decent amount of text before the user contains on to a more functional-aspect of your task.
 
 The instruction page is user easy to use.
 
