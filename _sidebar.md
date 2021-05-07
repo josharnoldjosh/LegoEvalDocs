@@ -29,8 +29,8 @@
     * [Data Assigner](dataloader.md)
 
 - **Page Library**
-    * [Instruction Page](temp.md)
+    * [Instruction Page](instruction.md)
     * [Survey Pages](temp.md)
-    * [Chatbot Page](temp.md)
+    * [Chatbot Page](chatbot.md)
     * [MTurk-Releated Pages](temp.md)
     * [Conversation Comparison Page](temp.md)    
