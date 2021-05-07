@@ -58,7 +58,7 @@ pipeline.append(survey.component)
 ### ~~~ End of Your Task ~~~ ###
 ```
 
-You can see we've created a task with two different pages. The first page is a simple [Instruction Page](/temp) that displays a title and description. The next is a [Survey Page](/temp) that presents a survey to the user.
+You can see we've created a task with two different pages. The first page is a simple [Instruction Page](/instruction) that displays a title and description. The next is a [Survey Page](/survey) that presents a survey to the user.
 
 The survey page has a lot of customization, you can add different questions in different orders, etc.
 

@@ -1,29 +1,17 @@
 # Running a Task Locally
 
-<!-- #### Install NPM Modules
-From the `app/react_app/` folder, execute the following commands.
-```bash
-npm install
-npm run build
-```
-They might take a while! Once you've run this command, you **don't** need to run it again **unless**:
+It's pretty easy to compile and run a task locally in your browser:
 
-1. You modify any `.js` file
-2. You delete either the `react_app/build/` folder or `react_app/node_modules/` folder
-
-#### Disable Local Debug Mode
-**Make sure** that in `app/settings.py`, `debug = False` in the `server` dictionary:
-```python
-server = {
-    # If this is False, real money will be deducted
-    'debug': False,
-    # ...
-}
-``` -->
 
 #### Run the `local_test.py` Command
+
 **Make sure** you're in the `app/` directory, run the following command and jump to [localhost](http://127.0.0.1:2988/helloworld).
 ```bash
 python3 local_test.py
 ```
+
+
+#### Next Steps
+
+If you're happy with your task, why not try running it on [Amazon Mechanical Turk](/mturk)?
 ---
