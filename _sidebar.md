@@ -14,14 +14,9 @@
         * [The Basics](taskbasics.md)
         * [build.py](build.md)
         * [main_loop.py](mainloop.md)
-    - Understanding State
-        * [Passing Data Around](temp.md)
-        * [Saving Task Data](savingdata.md)
     - Custom Page Example
-        * [Designing the Front-end](temp.md)
-        * [Creating a Python Wrapper](temp.md)
-        * [Editing the Task Build](temp.md)
-        * [Updating the Main Loop](temp.md)
+        * [Designing the Front-end](ex_front_end.md)
+        * [Creating a Python Wrapper](ex_python_wrapper.md)
     
 
 - **Advanced Functionality**
@@ -30,7 +25,5 @@
 
 - **Page Library**
     * [Instruction Page](instruction.md)
-    * [Survey Pages](temp.md)
-    * [Chatbot Page](chatbot.md)
-    * [MTurk-Releated Pages](temp.md)
-    * [Conversation Comparison Page](temp.md)    
+    * [Survey Pages](survey.md)
+    * [Chatbot Page](chatbot.md)     
