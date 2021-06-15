@@ -24,7 +24,7 @@ pipeline.append(Chatbot("MyUniqueIdentiferHere").component)
 
 #### main_loop.py
 
-Below is an example where, when the `request_message` instruction is called, we:
+Below is an example, when the `request_message` instruction is called, we:
 
 1. Get the last message, `last_message`, from the user
 2. Use the `last_message` in the back-end's response to the user
