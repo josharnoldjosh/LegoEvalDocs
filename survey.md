@@ -13,9 +13,7 @@ from components.survey.survey import Survey, RadioGroup, CheckBox, Text, Rating,
 
 # ...
 
-survey = Survey("RandomComparison", text="Please complete the survey & then answer any questions!")
-
-survey.title = "Task Survey"
+survey = Survey(title="Example Survey")
 
 text1 = Text("name", "What is your name?")
 survey.questions.append(text1.toJson())
