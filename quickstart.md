@@ -16,7 +16,7 @@ git clone https://github.com/yooli23/LEGOEval.git
 #### Installing the libarary and dependencies
 Installing the library and dependencies is simple using `pip`.
 ```bash
-cd app
+cd ./LEGOEval/app/
 pip3 install -r requirements.txt
 ```
 
