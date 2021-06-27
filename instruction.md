@@ -12,11 +12,11 @@ The `title` and `description` are pretty self-explanatory. The `button` sets the
 
 ```python
 # build.py
-from components.page.page import Page
+from components.page.page import Page as Instruction
 
 # ...
 
-start = Page()
+start = Instruction()
 start.title = "Hello, world!"
 start.description = "These are my instructions."
 start.button = "Continue"
